@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "sdkVersion": "6.0.2.437-1.2.0-1",
+  "description": "Siblik starter kit",
+  "main": "sdk",
+  "devDependencies": {
+  }
+}

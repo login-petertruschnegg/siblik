@@ -1,0 +1,48 @@
+{
+    "defaults": {
+        "jsConfig": {
+            "appName": "Siblik",
+            "productName": "SiblikCRM",
+            "brandName": "SiblikCRM",
+            "appBuild": "1",
+            "appVersion": "1.0.0",
+            "about": {
+                "privacy": "http://siblik.com/mobile_privacy",
+                "tos": "http://siblik.com/mobile_tos",
+                "support": "support.siblik.com",
+                "supportEmail": "support@siblik.com",
+                "copyrightText": "Copyright © 2017 SiblikCRM Inc. All Rights Reserved.",
+                "trademarkText": "Siblik and SiblikCRM are trademarks owned by SiblikCRM Inc. All other trademarks are the property of their respective owners."
+            },
+            "ui": {
+                "icons": {
+                    "actions": {
+                        "pdfaction": "icon icon-download"
+                    }
+                }
+            }
+        },
+        "native": {
+            "ios": {
+                "binaryName": "SiblikCRM",
+                "bundleId": "com.siblik.crm",
+                "teamId": ""
+            },
+            "android": {
+                "packageName": "com.siblik.crm",
+                "binaryName": "SiblikCRM"
+            }
+        }
+    },
+    "store": {
+        "native": {
+            "android": {
+                "signingKey": {
+                    "keystore": "",
+                    "storepass": "",
+                    "alias": ""
+                }
+            }
+        }
+    }
+}
